@@ -14,7 +14,7 @@ int main(){
     x=13;
     g=5;
     y=calculating(g,x,p);
-    //printf("%d",y);
+    printf("%d",y);
     long long m = 1807093;
 
     long long r =  rand()%m;
@@ -25,7 +25,7 @@ int main(){
 
     long long dm = c2 /calculating(c1,x,p);
     cout<<"message="<<m<<"\n";
-    cout<<"encryption="<<c1 <<c2<<"\n";
+    cout<<"encryption="<<c1 <<" "<<c2<<"\n";
     cout<<"after decryption="<<dm;
 
     return 0;
